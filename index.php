@@ -22,6 +22,7 @@ include 'connectdb.php';
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sb-admin-2.css">
 
 </head>
 
@@ -35,10 +36,8 @@ include 'connectdb.php';
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+
+                <div class="sidebar-brand-text mx-3"><img src="/admin-dashboard/img/PSS40.png" alt=""></div>
             </a>
 
             <!-- Divider -->
@@ -140,10 +139,6 @@ include 'connectdb.php';
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
 
 
 
